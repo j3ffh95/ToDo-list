@@ -51,4 +51,6 @@ function addTodo(todo) {
 
 function updateLS() {
   todosEl = document.querySelectorAll("li");
+
+  const todos = [];
 }
