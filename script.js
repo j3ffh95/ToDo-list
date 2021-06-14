@@ -60,4 +60,6 @@ function updateLS() {
       completed: todoEl.classList.contains("completed"),
     });
   });
+
+  localStorage.setItem("todos", JSON.stringify(todos));
 }
