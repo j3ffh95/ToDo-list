@@ -49,4 +49,6 @@ function addTodo(todo) {
   }
 }
 
-function updateLS() {}
+function updateLS() {
+  todosEl = document.querySelectorAll("li");
+}
